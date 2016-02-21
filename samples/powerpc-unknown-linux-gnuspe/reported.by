@@ -2,9 +2,9 @@ reporter_name="Joachim Nilsson <troglobit@gmail.com>"
 reporter_url="https://github.com/westermo/crosstool-ng"
 reporter_comment="Westermo WeOS 4.x Freescale e500v2 and e5500 compatible toolchain.
 
-It uses GLIBC v2.22 (for e500/SPE support) and a recent GCC (4.7.4, for
-e500v2 DPFP support) and will generate appropriate dual-precision floating
-point instructions by default.
+GLIBC v2.23 (for e500/SPE support) and LINARO GCC (4.8.5, for e500v2 DPFP
+support.  Generates appropriate dual-precision floating point instructions
+by default.
 
 Note: If building a Linux kernel with this toolchain, you will want to make
 sure -mno-spe AND -mspe=no are passed to gcc to prevent SPE ABI/instructions
